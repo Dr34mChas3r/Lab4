@@ -39,12 +39,6 @@ footer{
 }
 article{
 }
-.rsb-test{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
 footer ul{
     display:flex;
     flex-direction: row;
@@ -71,16 +65,23 @@ aside h2{
 .contact-info div{
     display: flex;
     align-items: center;
+    margin:10px;
 }
-
 .contact-info div img{
     width: 25px;
-    margin: 5px;
+}
+.contact-info div p{
+    color:#53423e;
+    text-decoration:none;
+}
+.down-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .social-info div img{
-    width: 40px;
-    margin: 7px;
-
+    width: 30px;
 }
 .rightsidebar{
     display: flex;
