@@ -61,16 +61,20 @@ aside h2{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    color:#53423e;
+    text-decoration:none;
 }
 .contact-info div{
     display: flex;
     align-items: center;
     margin:10px;
+    color:#53423e;
+    text-decoration:none;
 }
 .contact-info div img{
     width: 25px;
 }
-.contact-info div p{
+.contact-info div a{
     color:#53423e;
     text-decoration:none;
 }
